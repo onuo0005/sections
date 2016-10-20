@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #666;
   font-family: "Lato";
   text-align: center;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
@@ -11,7 +11,7 @@ html {
 }
 
 section {
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -22,15 +22,37 @@ section {
   max-width: 25em;
   margin: 1.5rem;
   padding: 1em;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
 }
 
 body {
-  background-color: #f2f2f2;
-  margin: 1.5rem;
-  padding: .4em .75em .5em;
+  margin: 0;
+  padding: 0;
 }
 
 div {
   display: inline-block;
+  padding: 1em;
+  vertical-align: middle;
+  max-width: 25em;
 
+}
+
+.btn {
+  border: 3px solid #333;
+  border-radius: 10px;
+  padding: 1em;
+  text-decoration: none;
+  text-decoration-color: #f2f2f2;
+}
+
+.btn:hover {
+  border-color: #666;
+  color: #f2f2f2;
+  background-color: #666;
 }
