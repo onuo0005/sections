@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #666;
-  font-family: 'lato';
+  font-family: "Lato";
   text-align: center;
 }
 
@@ -11,11 +11,10 @@ html {
 }
 
 section {
-  text-align: left;;
+  text-align: left;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  padding: 0.4em .75em .5em;
   display: inline-block;
 }
 
@@ -23,4 +22,15 @@ section {
   max-width: 25em;
   margin: 1.5rem;
   padding: 1em;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 1.5rem;
+  padding: .4em .75em .5em;
+}
+
+div {
+  display: inline-block;
+
 }
